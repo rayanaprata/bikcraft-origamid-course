@@ -1,12 +1,6 @@
 // Plugin Simple Slide by: https://github.com/origamid/simple-slide
 
-// new SimpleSlide({
-//   slide: 'principal', // nome do atributo data-slide="principal"
-//   nav: true, // se deve ou não mostrar a navegação
-//   auto: true, // se o slide deve passar automaticamente
-//   time: 5000, // tempo de transição dos slides
-//   pauseOnHover: true, // pausa a transição automática
-// });
+// Plugin Simple Anime by: https://github.com/origamid/simple-anime
 
 if (window.SimpleSlide) {
   new SimpleSlide({
@@ -19,4 +13,8 @@ if (window.SimpleSlide) {
     time: 5000,
     nav: true,
   });
+}
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
 }
